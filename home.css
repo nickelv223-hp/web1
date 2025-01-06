@@ -1,0 +1,501 @@
+<style>
+        .header-maps{
+            margin-top: 10px;
+            font-size: 12px;
+            background-color: rgb(17, 138, 17);
+            color: rgb(146, 142, 142);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            cursor: text;
+            width: 175%;
+        }
+        .span-time{
+            margin-left: 40px;
+        }
+        .span-map{
+            margin-left: 40px;
+        }
+        .span-phone{
+            margin-left: 40px;
+        }
+
+        .banner-card{
+            position: relative;
+        }
+
+        .banner-card{
+            width: 130%;
+            height: auto;
+        }
+
+        .back{
+            width: 135%;
+            height: 900px;
+            position: relative;
+            top: 0px;
+            left: 0;
+        }
+
+        .logo{
+            width: 20%;
+            margin-left: 50px;
+            position: absolute;
+            top: 100px;
+            left: 40px;
+            
+        }
+
+        .home-button{
+            font-size: 24px;
+            position: absolute;
+            top: 3%;
+            left: 850px;
+            color: rgb(226, 20, 20);
+            cursor: pointer;
+
+        }
+
+        .home-button:hover{
+            color: red;
+        }
+
+        .about-button{
+            font-size: 24px;
+            position: absolute;
+            top: 3%;
+            left: 950px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .about-button:hover{
+            color: red;
+        }
+
+        .services-button{
+            font-size: 24px;
+            position: absolute;
+            top: 3%;
+            left: 1080px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .services-button:hover{
+            color: red;
+        }
+
+        .contact-button{
+            font-size: 24px;
+            position: absolute;
+            top: 3%;
+            left: 1190px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .contact-button:hover{
+            color: red;
+        }
+
+        .banner-text{
+            position: absolute;
+            top: 15%;
+            color: #fff;
+            padding: 10px;
+            left: 300px;
+        }
+
+        .banner-text h4{
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .banner-text p{
+            font-size: 24px;
+        }
+
+        .banner-text button{
+            background-color: rgb(175, 23, 23);
+            color: #fff;
+            border: none;
+            height: 40px;
+            width: 120px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .sc_item_subtitle{
+            font-size: small;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .sc_item_title{
+            text-align: center;
+        }
+
+        .sc_icons_title{
+            font-size: 24px;
+            margin-left: 150px;
+            position: absolute;
+            top: 36%;
+        }
+
+        .sc_icons_description{
+            font-size: 19px;
+            width: 180px;
+            margin-left: 150px;
+            position: absolute;
+            top: 40%;
+        }
+
+        .sc_icons_title2{
+            margin-left: 600px;
+            font-size: 24px;
+            position: absolute;
+            top: 36%;
+        }
+
+        .sc_icons_description2{
+            font-size: 19px;
+            margin-left: 600px;
+            position: absolute;
+            top: 40%;
+            width: 180px;
+        }
+
+        .sc_icons_title3{
+            font-size: 24px;
+            margin-left: 1060px;
+            position: absolute;
+            top: 36%;
+        }
+
+        .sc_icons_description3{
+            font-size: 19px;
+            margin-left: 1060px;
+            position: absolute;
+            top: 40%;
+            width: 180px;
+        }
+
+        .sc_icons_title4{
+            font-size: 24px;
+            margin-left: 1500px;
+            position: absolute;
+            top: 36%;
+        }
+
+        .sc_icons_description4{
+            font-size: 19px;
+            margin-left: 1500px;
+            position: absolute;
+            top: 40%;
+            width: 180px;
+        }
+
+        .back2{
+            width: 135%;
+            height: 350px;
+            position: relative;
+        }
+
+        .rates{
+            width: 135%;
+            height: 280px;
+            top: 95%;
+            position: relative;
+            
+        }
+
+        .numbers{
+            font-size: 40px;
+            position: absolute;
+            top: 47%;
+            left: 200px;
+            color: #fff;
+        }
+
+        .numbers-rate{
+            font-size: 14px;
+            position: absolute;
+            top: 51%;
+            left: 190px;
+            color: #fff;
+            cursor: text;
+        }
+
+        .project{
+            font-size: 40px;
+            position: absolute;
+            top: 47.9%;
+            left: 680px;
+            color: #fff;
+        }
+
+        .project-rate{
+            font-size: 14px;
+            position: absolute;
+            top: 51%;
+            left: 640px;
+            color: #fff;
+            cursor: text;
+        }
+
+        .globe{
+            font-size: 40px;
+            position: absolute;
+            top: 47.5%;
+            left: 1090px;
+            color: #fff;
+        }
+
+        .globe-rate{
+            font-size: 14px;
+            position: absolute;
+            top: 51%;
+            left: 1085px;
+            color: #fff;
+            cursor: text;
+        }
+
+        .clients{
+            font-size: 40px;
+            position: absolute;
+            top: 47.5%;
+            left: 1550px;
+            color: #fff;
+        }
+
+        .clients-rate{
+            font-size: 14px;
+            position: absolute;
+            top: 51%;
+            left: 1530px;
+            color: #fff;
+            cursor: text;
+        }
+
+        .back3{
+            width: 135%;
+            height: 800px;
+            position: relative;
+        }
+
+        .subtitle{
+            font-size: 20px;
+            margin-left: 110px;
+            color: gray;
+            position: absolute;
+            top: 59%;
+        }
+
+        .title{
+            font-size:  43px;
+            margin-left: 110px;
+            position: absolute;
+            top: 62%;
+        }
+
+        .purpose{
+            font-size: 18px;
+            margin-left: 110px;
+            width: 520px;
+            position: absolute;
+            top: 67%;
+        }
+
+        .need{
+            font-size: 18px;
+            margin-left: 110px;
+            width: 520px;
+            position: absolute;
+            top: 69%;
+            color: rgb(206, 0, 0);
+        }
+
+        .offer{
+            font-size: 18px;
+            margin-left: 110px;
+            width: 520px;
+            position: absolute;
+            top: 71%;
+        }
+
+        .shadow{
+            width: 135%;
+            height: 330px;
+            position: absolute;
+            top: 77%;
+        }
+
+        .procurement{
+            width: 50%;
+            height: 500px;
+            margin-left: 850px;
+            position: absolute;
+            top: 59%;
+        }
+
+        .footer-maps{
+            width: 135%;
+            background-color: rgb(14, 80, 14);
+            height: 200px;
+            position: relative;
+        }
+
+        .country{
+            font-size: 20px;
+            margin-left: 80px;
+            color: #fff;
+            position: absolute;
+            top: 19%;
+        }
+
+        .tel{
+            font-size: 16px;
+            margin-left: 80px;
+            color: rgb(184, 181, 181);
+            position: absolute;
+            top: 40%;
+        }
+
+        .digits{
+            font-size: 16px;
+            margin-left: 135px;
+            color: rgb(226, 4, 4);
+            position: absolute;
+            top: 40%;
+            cursor: pointer;
+        }
+
+        .digits:hover{
+            color: blue;
+        }
+
+        .see{
+            font-size: 16px;
+            margin-left: 80px;
+            color: rgb(184, 181, 181);
+            position: absolute;
+            top: 55%;
+        }
+
+        .up{
+            font-size: 16px;
+            margin-left: 135px;
+            color: rgb(226, 4, 4);
+            position: absolute;
+            top: 55%;
+            cursor: pointer;
+        }
+
+        .up:hover{
+            color: blue;
+        }
+
+        .and-also{
+            width: 135%;
+            background-color: rgb(9, 53, 9);
+            height: 320px;
+            position: relative;
+        }
+
+        .logo2{
+            width: 14%;
+            height: 70px;
+            margin-left: 50px;
+            position: absolute;
+            top: 10%;
+            left: 40px;
+        }
+
+        .even-too{
+            font-size: 18px;
+            width: 350px;
+            color: rgb(218, 222, 224);
+            margin-left: 110px;
+            position: absolute;
+            top: 44%;
+        }
+
+        .menu-quick-links-container{
+            font-size: 18px;
+            width: 150px;
+            position: absolute;
+            top: 91%;
+            margin-left: 700px;
+            color: aliceblue;
+        }
+
+        .widget_title{
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            margin-left: 700px;
+            color: #fff;
+            position: absolute;
+            top: 89%;
+        }
+
+        .home{
+            color: #a8a3a3;
+        }
+
+        .home:hover{
+            color: rgb(207, 17, 17);
+        }
+        
+        .about{
+            color: #a8a3a3;
+        }
+
+        .about:hover{
+            color: rgb(207, 17, 17);
+        }
+
+        .services{
+            color: #a8a3a3;
+        }
+
+        .services:hover{
+            color: rgb(207, 17, 17);
+        }
+
+        .contact{
+            color: #a8a3a3;
+        }
+
+        .contact:hover{
+            color: rgb(207, 17, 17);
+        }
+
+        .copyright-scheme{
+            width: 135%;
+            height: 50px;
+            font-size: 16px;
+            background-color: rgb(1, 37, 1);
+        }
+
+        .copyright-text{
+            color: #fff;
+            margin-left: 470px;
+        }
+
+        .at{
+            color: #a8a3a3;
+        }
+
+        .shadow2{
+            height: 38px;
+            position: absolute;
+            top: 97.2%;
+            width: 135%;
+        }
+
+        .copyright-text:hover{
+            color: rgb(211, 7, 7);
+        }
+
+
+    </style>
